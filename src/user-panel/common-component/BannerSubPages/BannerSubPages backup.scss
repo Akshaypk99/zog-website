@@ -1,0 +1,152 @@
+.banner-sub-pages {
+  background-image: unset !important;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+
+  .main-icon {
+    position: absolute;
+
+    height: 725px;
+  }
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-top: 0px;
+    height: 100%;
+    width: 997px;
+    margin: 0 auto;
+
+    .blue-title {
+      //styleName: Web:subpage-title-blu;
+      font-family: Work Sans;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 40px;
+      letter-spacing: -0.03em;
+      text-align: left;
+      color: #198BCA;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      //styleName: Web:Banner Title_v01;
+      font-family: Work Sans;
+      font-size: 62px;
+      font-weight: 300;
+      line-height: 65px;
+      letter-spacing: -0.03em;
+      text-align: left;
+      color: #FFF;
+      margin-bottom: 40px;
+    }
+
+    .sub-title {
+      //styleName: Web : Content;
+      font-family: Work Sans;
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 38px;
+      letter-spacing: -0.03em;
+      text-align: left;
+      color: #FFF;
+
+    }
+
+    .sub-title::before {
+      content: '';
+      width: 95px;
+      height: 7px;
+      border-radius: 30px;
+      background: #26B2E3;
+      position: absolute;
+      top: -10px;
+      left: 0;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-sub-pages {
+    background-image: url("../../../../public/images/why-zog-global/banner-tab.png");
+
+    .main-icon {
+      height: 725px;
+    }
+
+    .inner {
+      width: 578px;
+      padding-top: 132px;
+
+      .blue-title {
+        font-size: 27px;
+        line-height: 34px;
+      }
+
+      .title {
+        font-size: 58px;
+        font-weight: 300;
+        line-height: 58px;
+        letter-spacing: -0.03em;
+        margin-bottom: 30px;
+
+      }
+
+      .sub-title {
+        //styleName: Tab:Content;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 36px;
+        letter-spacing: -0.03em;
+
+      }
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .banner-sub-pages {
+    background-image: url("../../../../public/images/why-zog-global/banner-mob.png");
+
+    .main-icon {
+      height: 463px;
+    }
+
+    .inner {
+      width: 245px;
+      padding-top: 50px;
+      position: relative;
+      z-index: 1;
+
+      .blue-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+      }
+
+      .title {
+        font-size: 34px;
+        font-weight: 300;
+        line-height: 37px;
+        letter-spacing: -0.03em;
+        margin-bottom: 30px;
+
+      }
+
+      .sub-title {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: -0.03em;
+
+      }
+    }
+  }
+}

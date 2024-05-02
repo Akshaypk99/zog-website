@@ -1,0 +1,165 @@
+.it-outsourcing-page {
+
+
+  .sec-2 {
+    width: 976px;
+    margin: 0 auto;
+
+
+  }
+
+  .sec-3 {
+    width: 100%;
+    background-color: #F9FBFD;
+    padding: 130px 0;
+
+    .inner {
+      width: 961px;
+      margin: 0 auto;
+
+      .text-box {
+        margin-bottom: 70px;
+      }
+
+      .flex-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .card {
+          width: 467px;
+          border-radius: 15px;
+          margin-bottom: 36px;
+          overflow: hidden;
+          border: none;
+
+          img {
+            width: 100%;
+          }
+
+          .text {
+            //styleName: Web:Title-table;
+            font-family: Work Sans;
+            font-size: 32px;
+            font-weight: 300;
+            line-height: 38px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            padding: 50px 30px;
+          }
+        }
+      }
+
+    }
+
+
+
+  }
+
+  .sec-4 {
+    width: 976px;
+    margin: 0 auto;
+
+
+
+
+  }
+
+  .sec-5 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+
+  .sec-6 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+
+  .sec-7 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+
+  .sec-8 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+}
+
+@media (max-width: 991px) {
+  .it-outsourcing-page {
+    .sec-3 {
+      padding: 130px 0;
+  
+      .inner {
+        width: 585px;
+  
+        .text-box {
+          margin-bottom: 70px;
+        }
+  
+        .flex-box {
+          display: block;
+        
+          .card {
+            width: 100%;
+           
+  
+            img {
+           
+            }
+            .text {
+              font-size: 32px;
+              line-height: 38px;
+            }
+          }
+        }
+  
+      }
+  
+  
+  
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .it-outsourcing-page {
+    .sec-3 {
+      padding: 130px 0;
+  
+      .inner {
+        width: 278px;
+  
+        .text-box {
+          margin-bottom: 70px;
+        }
+  
+        .flex-box {
+        
+          .card {
+           
+  
+            img {
+           
+            }
+            .text {
+              font-size: 32px;
+              line-height: 38px;
+            }
+          }
+        }
+  
+      }
+  
+  
+  
+    }
+  }
+}

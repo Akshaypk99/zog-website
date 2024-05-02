@@ -1,0 +1,453 @@
+.software-development-page {
+ 
+
+  .sec-2 {
+    width: 976px;
+    margin: 0 auto;
+
+
+  }
+
+  .sec-3 {
+    width: 976px;
+    margin: 0 auto;
+
+
+
+  }
+
+  .sec-4 {
+    width: 976px;
+    margin: 0 auto;
+
+
+
+
+  }
+
+  .sec-5 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+
+  .sec-6 {
+    width: 100%;
+    background-color: #000;
+    padding: 125px 0;
+
+    >h1 {
+
+      text-align: left;
+      color: #fff;
+      margin-bottom: 100px;
+      padding-left: 145PX;
+    }
+
+    .slick-slider {
+      $cardHeight: 570px;
+
+      .slick-next {
+        right: 100px;
+        top: 620px;
+      }
+
+      .slick-prev {
+        left: calc(100% - 200px);
+        top: 620px;
+      }
+
+      .slick-prev::before {
+
+        content: url(../../../../public/images/slick-buttons/prev-arrow-white-web.svg);
+        height: 100%;
+        display: block;
+
+      }
+
+      .slick-next::before {
+        content: url(../../../../public/images/slick-buttons/next-arrow-white-web.svg);
+        height: 100%;
+        display: block;
+      }
+
+      .slick-track {
+        margin: 0 -10px 0 -50px;
+
+      }
+
+      .slick-track,
+      .slick-slide,
+      .slick-list {
+        height: $cardHeight;
+      }
+
+
+
+      .slick-slide {
+
+
+        height: $cardHeight;
+        margin: 0 10px;
+
+
+
+        .card {
+          height: $cardHeight;
+          overflow: hidden;
+          border-radius: 0px;
+          border: unset;
+          background-color: transparent;
+          cursor: grab;
+
+          .inner {
+            width: 100%;
+            height: 100%;
+            background-size: 100%;
+            padding: 40px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-size: 100%;
+            transition: all .6s cubic-bezier(.4,-0.01,.47,.96);
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+
+            
+            .title {
+              //styleName: Web:Title1;
+              font-family: Work Sans;
+              font-size: 38px;
+              font-weight: 300;
+              line-height: 48px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              color: #fff;
+
+            }
+
+            button {
+              font-family: Work Sans;
+              font-size: 17px;
+              font-weight: 400;
+              line-height: 45px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              color: #fff;
+              display: flex;
+              align-items: center;
+
+              img {
+                width: 26px;
+                margin-left: 10px;
+              }
+            }
+          }
+          .inner:hover {
+            background-size: 120%;
+background-position: -50px -50px;
+          }
+
+
+
+        }
+
+        .card:focus-within {
+          cursor: grabbing;
+        }
+      }
+
+    }
+
+
+  }
+
+  .sec-7 {
+    width: 100%;
+    margin: 0 auto;
+    background: #1F1B56;
+
+    .inner{
+      width: 100%;
+      padding: 80px 80px ;
+      margin: auto;
+      color: #fff;
+      .title-section{
+        width: 1116px;
+        margin: auto;
+        padding: 20px 0px;
+        p{
+          padding-bottom: 60px;
+        }
+      }
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+  }
+
+  .sec-8 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+}
+
+@media (max-width: 991px) {
+  .software-development-page {
+    .sec-6 {
+      width: 100%;
+      background-color: #000;
+      padding: 73px 0 70px 0;
+
+      >h1 {
+
+        margin-bottom: 70px;
+        padding-left: 41PX;
+      }
+
+      .slick-slider {
+        $cardHeight: 599px;
+
+        .slick-next {
+          display: none !important;
+          right: 100px;
+          top: 760px;
+        }
+
+        .slick-prev {
+          display: none !important;
+          left: calc(100% - 200px);
+          top: 760px;
+        }
+
+        .slick-prev::before {
+
+          content: url(../../../../public/images/slick-buttons/prev-arrow-white-web.svg);
+          height: 100%;
+          display: block;
+
+        }
+
+        .slick-next::before {
+          content: url(../../../../public/images/slick-buttons/next-arrow-white-web.svg);
+          height: 100%;
+          display: block;
+        }
+
+        .slick-track {
+          margin: 0 -10px 0 -50px;
+
+        }
+
+        .slick-track,
+        .slick-slide,
+        .slick-list {
+          height: $cardHeight;
+        }
+
+
+
+        .slick-slide {
+
+          width: 455px;
+          height: $cardHeight;
+          margin: 0 10px;
+
+
+
+          .card {
+            width: 455px;
+            height: $cardHeight;
+            overflow: hidden;
+            border-radius: 0px;
+            border: unset;
+
+            .inner {
+              width: 100%;
+              height: 100%;
+              background-size: 100%;
+              padding: 40px 30px;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              background-size: 100%;
+
+              .title {
+
+                text-align: left;
+                color: #fff;
+
+              }
+
+              button {
+
+                align-items: center;
+
+                img {
+                  width: 26px;
+                  margin-left: 10px;
+                }
+              }
+            }
+
+
+          }
+        }
+
+      }
+
+
+    }
+    .sec-7 {
+      width: 100%;
+  
+      .inner{
+        width: 100%;
+        padding: 80px 40px 80px 40px;
+        .title-section{
+          width: 100%;
+          margin: auto;
+          padding: 44px;
+          p{
+            padding-bottom: 60px;
+          }
+        }
+        img{
+          width: 100%;
+          padding-bottom: 100px;
+        }
+      }
+  
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .software-development-page {
+    .sec-6 {
+
+      padding: 73px 0 70px 0;
+
+      >h1 {
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 70px;
+        padding-left: 22px;
+      }
+
+      .slick-slider {
+        $cardHeight: 497px;
+
+        .slick-next {
+          right: 100px;
+          top: 760px;
+        }
+
+        .slick-prev {
+          left: calc(100% - 200px);
+          top: 760px;
+        }
+
+        .slick-prev::before {
+
+          content: url(../../../../public/images/slick-buttons/prev-arrow-white-web.svg);
+          height: 100%;
+          display: block;
+
+        }
+
+        .slick-next::before {
+          content: url(../../../../public/images/slick-buttons/next-arrow-white-web.svg);
+          height: 100%;
+          display: block;
+        }
+
+        .slick-track {
+          margin: 0 -1px 0 -1px;
+
+        }
+
+        .slick-track,
+        .slick-slide,
+        .slick-list {
+          height: $cardHeight;
+        }
+
+
+
+        .slick-slide {
+
+          width: 320px !important;
+          height: $cardHeight;
+          margin: 0 12px;
+
+
+
+          .card {
+            width: 100% !important;
+            height: $cardHeight;
+            overflow: hidden;
+            border-radius: 0px;
+            border: unset;
+
+            .inner {
+              width: 100%;
+              height: 100%;
+              background-size: 100%;
+              padding: 40px 30px;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              background-size: 100%;
+
+              .title {
+                font-size: 38px;
+                line-height: 42px;
+
+
+              }
+
+              button {
+
+
+                img {}
+              }
+            }
+
+
+
+          }
+        }
+
+      }
+
+
+    }
+   
+    .sec-7 {
+      width: 100%;
+  
+      .inner{
+        width: 100%;
+        padding: 0px;
+        .title-section{
+          width: 100%;
+          margin: auto;
+          padding: 20px;
+          padding-top: 60px;
+          p{
+            padding-bottom: 60px;
+          }
+        }
+        img{
+          width: 100%;
+          padding-bottom: 100px;
+        }
+      }
+  
+    }
+  }
+}

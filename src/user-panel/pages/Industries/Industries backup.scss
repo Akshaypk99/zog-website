@@ -1,0 +1,569 @@
+.industries-page {
+
+
+  .sec-2 {
+    width: 976px;
+    margin: 0 auto;
+    padding: 155px 0;
+
+    h1 {
+
+      text-align: left;
+      margin-bottom: 10px;
+
+    }
+
+    p {}
+
+  }
+
+  .sec-3 {
+
+    padding: 155px 0;
+    background: #F9FBFD;
+
+    .inner {
+      width: 976px;
+      margin: 0 auto;
+
+      h1 {
+
+        text-align: right;
+        margin-bottom: 10px;
+
+      }
+
+      p {
+
+        text-align: right;
+
+      }
+
+
+    }
+  }
+
+  .sec-4 {
+    width: 100%;
+    background-color: #000;
+    padding: 125px 0;
+
+    >h1 {
+
+      text-align: left;
+      color: #fff;
+      margin-bottom: 100px;
+      padding-left: 145PX;
+    }
+
+    .slick-slider {
+      $cardHeight: 570px;
+
+      .slick-next {
+        right: 100px;
+        top: 620px;
+      }
+
+      .slick-prev {
+        left: calc(100% - 200px);
+        top: 620px;
+      }
+
+      .slick-prev::before {
+
+        content: url(../../../../public/images/slick-buttons/prev-arrow-white-web.svg);
+        height: 100%;
+        display: block;
+
+      }
+
+      .slick-next::before {
+        content: url(../../../../public/images/slick-buttons/next-arrow-white-web.svg);
+        height: 100%;
+        display: block;
+      }
+
+      .slick-track {
+        margin: 0 -10px 0 -50px;
+
+      }
+
+      .slick-track,
+      .slick-slide,
+      .slick-list {
+        height: $cardHeight;
+      }
+
+
+
+      .slick-slide {
+
+
+        height: $cardHeight;
+        margin: 0 10px;
+
+
+
+        .card {
+          height: $cardHeight;
+          overflow: hidden;
+          border-radius: 0px;
+          border: unset;
+          background-color: transparent;
+          cursor: grab;
+
+          .inner {
+            width: 100%;
+            height: 100%;
+            background-size: 100%;
+            padding: 40px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-size: 100%;
+            transition: all .6s cubic-bezier(.4,-0.01,.47,.96);
+
+            
+            .title {
+              //styleName: Web:Title1;
+              font-family: Work Sans;
+              font-size: 38px;
+              font-weight: 300;
+              line-height: 48px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              color: #fff;
+
+            }
+
+            button {
+              font-family: Work Sans;
+              font-size: 17px;
+              font-weight: 400;
+              line-height: 45px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              color: #fff;
+              display: flex;
+              align-items: center;
+
+              img {
+                width: 26px;
+                margin-left: 10px;
+              }
+            }
+          }
+          .inner:hover {
+            background-size: 120%;
+background-position: -50px -50px;
+          }
+
+
+
+        }
+
+        .card:focus-within {
+          cursor: grabbing;
+        }
+      }
+
+    }
+
+
+  }
+
+  .sec-5 {
+    padding: 162px 0;
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .lhs {
+      h1 {
+
+
+        text-align: left;
+        margin-bottom: 60px;
+      }
+
+      P {
+        display: none;
+      }
+
+
+    }
+
+    .rhs {
+
+      p {
+
+        text-align: left;
+        width: 655px;
+
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 991px) {
+  .industries-page {
+
+    .sec-2 {
+      width: 580px;
+      padding: 123px 0;
+
+      h1 {
+
+        margin-bottom: 10px;
+
+      }
+
+      p {}
+
+    }
+
+    .sec-3 {
+
+      padding: 123px 0;
+      background: #F9FBFD;
+
+      .inner {
+        width: 580px;
+
+        h1 {
+
+          margin-bottom: 10px;
+
+        }
+
+
+
+
+      }
+    }
+
+    .sec-4 {
+      width: 100%;
+      background-color: #000;
+      padding: 73px 0 70px 0;
+
+      >h1 {
+
+        margin-bottom: 70px;
+        padding-left: 41PX;
+      }
+
+      .slick-slider {
+        $cardHeight: 599px;
+
+        .slick-next {
+          display: none !important;
+          right: 100px;
+          top: 760px;
+        }
+
+        .slick-prev {
+          display: none !important;
+          left: calc(100% - 200px);
+          top: 760px;
+        }
+
+        .slick-prev::before {
+
+          content: url(../../../../public/images/slick-buttons/prev-arrow-white-web.svg);
+          height: 100%;
+          display: block;
+
+        }
+
+        .slick-next::before {
+          content: url(../../../../public/images/slick-buttons/next-arrow-white-web.svg);
+          height: 100%;
+          display: block;
+        }
+
+        .slick-track {
+          margin: 0 -10px 0 -50px;
+
+        }
+
+        .slick-track,
+        .slick-slide,
+        .slick-list {
+          height: $cardHeight;
+        }
+
+
+
+        .slick-slide {
+
+          width: 455px;
+          height: $cardHeight;
+          margin: 0 10px;
+
+
+
+          .card {
+            width: 455px;
+            height: $cardHeight;
+            overflow: hidden;
+            border-radius: 0px;
+            border: unset;
+
+            .inner {
+              width: 100%;
+              height: 100%;
+              background-size: 100%;
+              padding: 40px 30px;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              background-size: 100%;
+
+              .title {
+
+                text-align: left;
+                color: #fff;
+
+              }
+
+              button {
+
+                align-items: center;
+
+                img {
+                  width: 26px;
+                  margin-left: 10px;
+                }
+              }
+            }
+
+
+          }
+        }
+
+      }
+
+
+    }
+
+    .sec-5 {
+      padding: 150px 0;
+      width: 591px;
+
+      .lhs {
+        width: 100%;
+
+        h1 {
+
+          margin-bottom: 50px;
+        }
+
+        h1::before {
+          top: -20px;
+        }
+
+        p {
+          display: block;
+          font-family: Work Sans;
+          font-size: 22px;
+          line-height: 36px;
+          letter-spacing: -0.03em;
+          text-align: left;
+          margin-bottom: 50px;
+
+        }
+
+
+      }
+
+      .rhs {
+        display: none;
+
+      }
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .industries-page {
+    .sec-2 {
+      width: 264px;
+      padding: 183px 0;
+
+      h1 {
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 10px;
+
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+    }
+
+    .sec-3 {
+
+      padding: 183px 0;
+      background: #F9FBFD;
+
+      .inner {
+        width: 264px;
+
+        h1 {
+          font-size: 34px;
+          line-height: 37px;
+          margin-bottom: 10px;
+
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .sec-4 {
+
+      padding: 73px 0 70px 0;
+
+      >h1 {
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 70px;
+        padding-left: 22px;
+      }
+
+      .slick-slider {
+        $cardHeight: 497px;
+
+        .slick-next {
+          right: 100px;
+          top: 760px;
+        }
+
+        .slick-prev {
+          left: calc(100% - 200px);
+          top: 760px;
+        }
+
+        .slick-prev::before {
+
+          content: url(../../../../public/images/slick-buttons/prev-arrow-white-web.svg);
+          height: 100%;
+          display: block;
+
+        }
+
+        .slick-next::before {
+          content: url(../../../../public/images/slick-buttons/next-arrow-white-web.svg);
+          height: 100%;
+          display: block;
+        }
+
+        .slick-track {
+          margin: 0 -1px 0 -1px;
+
+        }
+
+        .slick-track,
+        .slick-slide,
+        .slick-list {
+          height: $cardHeight;
+        }
+
+
+
+        .slick-slide {
+
+          width: 320px !important;
+          height: $cardHeight;
+          margin: 0 12px;
+
+
+
+          .card {
+            width: 100% !important;
+            height: $cardHeight;
+            overflow: hidden;
+            border-radius: 0px;
+            border: unset;
+
+            .inner {
+              width: 100%;
+              height: 100%;
+              background-size: 100%;
+              padding: 40px 30px;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              background-size: 100%;
+
+              .title {
+                font-size: 38px;
+                line-height: 42px;
+
+
+              }
+
+              button {
+
+
+                img {}
+              }
+            }
+
+
+
+          }
+        }
+
+      }
+
+
+    }
+
+    .sec-5 {
+      padding: 100px 0;
+      width: 281px;
+
+      .lhs {
+        width: 100%;
+
+        h1 {
+          font-size: 34px;
+          line-height: 37px;
+          margin-bottom: 50px;
+
+        }
+
+        h1::before {
+          top: -40px;
+        }
+
+        p {
+
+          font-size: 16px;
+
+          line-height: 24px;
+
+          margin-bottom: 50px;
+
+        }
+
+
+      }
+
+
+    }
+  }
+}

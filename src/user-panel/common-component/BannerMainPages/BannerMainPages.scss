@@ -1,0 +1,101 @@
+.banner {
+    background-image: url("../../../../public/images/why-zog-global/banner-web.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+
+    .inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding-top: 132px;
+      height: 100%;
+      width: 75.3125%;
+      margin: 0 auto;
+
+      .title {
+        //styleName: Web:Banner Title_v01;
+        font-family: Work Sans;
+        font-size: 62px;
+        font-weight: 300;
+        line-height: 65px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #FFF;
+        margin-bottom: 62px;
+      }
+
+      .sub-title {
+        //styleName: Web : Content;
+        font-family: Work Sans;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 38px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #FFF;
+
+      }
+    }
+  }
+
+  @media (max-width: 991px) {
+    .banner {
+        background-image: url("../../../../public/images/why-zog-global/banner-tab.png");
+  
+        .inner {
+          width: 578px;
+          padding-top: 132px;
+  
+          .title {
+            font-size: 58px;
+            font-weight: 300;
+            line-height: 58px;
+            letter-spacing: -0.03em;
+            margin-bottom: 30px;
+  
+          }
+  
+          .sub-title {
+            //styleName: Tab:Content;
+            font-size: 22px;
+            font-weight: 300;
+            line-height: 36px;
+            letter-spacing: -0.03em;
+  
+          }
+        }
+      }
+  }
+
+
+  @media (max-width:767px) {
+    .banner {
+      background-image: url("../../../../public/images/why-zog-global/banner-mob.png");
+
+      .inner {
+        width: 76.5625%;
+        padding-top: 6.3125rem;
+
+        .title {
+          font-size: 2.125rem;
+          font-weight: 300;
+          line-height: 2.313rem;
+          letter-spacing: -0.03em;
+          margin-bottom: 1.875rem;
+
+        }
+
+        .sub-title {
+          font-size: 1rem;
+          font-weight: 300;
+          line-height: 1.5rem;
+          letter-spacing: -0.03em;
+
+        }
+      }
+    }
+  }

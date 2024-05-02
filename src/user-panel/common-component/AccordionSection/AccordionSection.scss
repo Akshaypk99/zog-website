@@ -1,0 +1,189 @@
+.accordion-section {
+
+  width: 100%;
+
+  .inner {
+
+    padding: 132px 0 100px 0;
+    width: 1116px;
+    margin: 0 auto;
+
+    >p {
+      margin-bottom: 100px;
+
+    }
+
+    .segment {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 40PX 50PX;
+      border-top: 1px solid #000;
+      position: relative;
+      overflow: hidden;
+      height: 150px;
+      cursor: pointer;
+      transition: all 0.5s cubic-bezier(.57, .08, .85, .61);
+
+      h2 {
+        text-align: right;
+        margin-bottom: 62px;
+        width: 100%;
+      }
+
+      p {
+
+        text-align: right;
+        margin-bottom: 62px;
+        width: 880px;
+      }
+
+      .arrow {
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        transform: rotate(0deg);
+        transition: all 0.5s cubic-bezier(.57, .08, .85, .61);
+
+      }
+
+      button {
+        margin: 0 0 0 auto;
+      }
+    }
+
+    
+
+    .segment.active {
+      height: 485px;
+
+      .arrow {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .accordion-section {
+
+    width: 100%;
+
+    .inner {
+
+      padding: 132px 0 100px 0;
+      width: 691px;
+      margin: 0 auto;
+
+      p {
+        margin-bottom: 100px;
+
+      }
+
+      .segment {
+
+        padding: 20px 50px;
+        border-top: 1px solid #000;
+        position: relative;
+        overflow: hidden;
+        height: 100px;
+        cursor: pointer;
+        transition: all 0.5s cubic-bezier(.57, .08, .85, .61);
+
+        h2 {
+          font-size: 40px;
+          margin-bottom: 0px;
+        }
+
+        p {
+          margin-bottom: 40px;
+          margin-top: 20px;
+          width: 484px;
+opacity: 0;
+        }
+
+        .arrow {
+
+          height: 30px;
+
+        }
+
+        button {
+          margin: 0 0 0 auto;
+        }
+      }
+.segment.double-lined{
+  height:170px;
+
+}
+      .segment:last-child {
+      }
+
+      .segment.active {
+        height: 485px;
+p{opacity: 1;}
+        .arrow {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .accordion-section {
+
+    width: 100%;
+
+    .inner {
+
+      padding: 8.25rem 0 6.25rem 0;
+      width: 86.133%;
+      margin: 0 auto;
+
+      p {
+        margin-bottom: 6.25rem;
+
+      }
+
+      .segment {
+
+        padding: 1.0625rem 0rem;
+        border-top: 0.0625rem solid #000;
+        position: relative;
+        overflow: hidden;
+        height:6.25rem;
+        cursor: pointer;
+        transition: all 0.5s cubic-bezier(.57, .08, .85, .61);
+
+        h2 {
+          margin-bottom: 2.6875rem;
+          width: 13.3125rem;
+        }
+
+        p {
+          margin-bottom: 2.5rem;
+          width: 13.125rem;
+
+        }
+
+        .arrow {
+          top: 1.875rem;
+          left: 1.25rem;
+          height: 1.25rem;
+        }
+      }
+
+    
+
+      .segment.active {
+        height: 30.3125rem;
+
+        .arrow {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}

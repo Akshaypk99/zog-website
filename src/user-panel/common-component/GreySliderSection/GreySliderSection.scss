@@ -1,0 +1,347 @@
+.grey-slider-section {
+  width: 100%;
+  padding: 150px 0 100px 0;
+
+  .headding-box {
+    width: 100%;
+    padding: 0px 145px 50px 145px;
+  }
+
+
+  .slick-slider {
+    $cardHeight: 500px;
+
+    .slick-next {
+      left: 200px;
+      top: -30px;
+    }
+
+    .slick-prev {
+      left: 145px;
+      top: -30px;
+    }
+
+    .slick-prev::before {
+
+      content: url(../../../../public/images/slick-buttons/prev-arrow-black-web.svg);
+      height: 100%;
+      display: block;
+
+    }
+
+    .slick-next::before {
+      content: url(../../../../public/images/slick-buttons/next-arrow-black-web.svg);
+      height: 100%;
+      display: block;
+    }
+
+    .slick-track {
+      margin: 0 -10px 0 -50px;
+
+    }
+
+    .slick-track,
+    .slick-slide,
+    .slick-list {
+      height: $cardHeight;
+    }
+
+
+
+    .slick-slide {
+
+
+      height: $cardHeight;
+      margin: 0 10px;
+
+
+
+      .card {
+        height: $cardHeight;
+
+        padding: 100px 45px 100px 45px;
+        background-color: #F9FBFD;
+        border: none;
+        transition: all 0.7s cubic-bezier(.57, .21, .69, 1.25);
+        ;
+
+        .inner-base-box {
+          overflow: hidden;
+          height: 100%;
+          width: 100%;
+
+          .inner-moving-box {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-top: 10px;
+            transition: all 0.7s cubic-bezier(.57, .21, .69, 1.25);
+
+            img {
+              height: 130px;
+              width: 130px;
+              margin-bottom: 15px;
+            }
+
+            .number {
+              font-family: Work Sans;
+              font-size: 92px;
+              font-weight: 600;
+              line-height: 65px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              color: var(--text-grey-dark, #ABABAB);
+
+            }
+            .title {
+              //styleName: Web:Banner Title_v01;
+              font-family: Work Sans;
+              font-size: 60px;
+              font-weight: 300;
+              line-height: 65px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              min-height: 130px;
+              margin-bottom: 15px;
+              width: 540px;
+              transition: all 0.7s ease-in-out;
+
+            }
+
+            .description {
+              //styleName: Web:Content-small;
+              font-family: Work Sans;
+              font-size: 20px;
+              font-weight: 300;
+              line-height: 28px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              margin-bottom: 10px;
+              transition: all 0.7s ease-in-out;
+
+            }
+
+
+            button {
+              width: fit-content;
+
+            }
+
+          }
+        }
+      }
+
+      .card:hover {
+        background-color: #000;
+      }
+
+      .card:hover .title,
+      .card:hover .description {
+        color: #fff;
+      }
+
+      .card:hover .inner-moving-box {
+        margin-top: -120px;
+      }
+    }
+  }
+
+}
+
+.grey-slider-section.number-type{
+  .card:hover .inner-moving-box {
+    margin-top: -135px !important;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .grey-slider-section {
+    width: 100%;
+    padding: 0px 0 100px 0;
+
+    .headding-box {
+      padding: 50px 50px 40px 50px;
+    }
+
+
+    .slick-slider {
+      $cardHeight: 460px;
+
+      .slick-next {
+        display: none !important;
+
+      }
+
+      .slick-prev {
+        display: none !important;
+
+      }
+
+
+
+      .slick-track {
+        margin: 0 -10px 0 -50px;
+
+      }
+
+      .slick-track,
+      .slick-slide,
+      .slick-list {
+        height: $cardHeight;
+      }
+
+
+
+      .slick-slide {
+
+        width: 455px;
+        height: $cardHeight;
+        margin: 0 10px;
+
+
+
+        .card {
+          width: 455px;
+          height: $cardHeight;
+          overflow: hidden;
+
+
+          .inner-base-box {
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+
+            .inner-moving-box {
+              img {
+                height: 100px;
+              }
+
+              
+
+
+
+              .title {
+
+                font-size: 50px;
+                line-height: 58px;
+                margin-bottom: 15px;
+              }
+            }
+          }
+        }
+
+      }
+
+
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .grey-slider-section {
+
+    padding: 0rem 0 4.375rem 0;
+
+    .headding-box {
+      padding: 3.125rem 0.75rem 2.5rem 0.75rem;
+    }
+
+
+    .slick-slider {
+      $cardHeight: 36.0625rem;
+
+      .slick-next {
+        right: 6.25rem;
+        top: 47.5rem;
+      }
+
+      .slick-prev {
+        left: calc(100% - 12.5rem);
+        top: 47.5rem;
+      }
+
+      .slick-prev::before {
+
+        content: url(../../../../public/images/slick-buttons/prev-arrow-black-web.svg);
+        height: 100%;
+        display: block;
+
+      }
+
+      .slick-next::before {
+        content: url(../../../../public/images/slick-buttons/next-arrow-black-web.svg);
+        height: 100%;
+        display: block;
+      }
+
+      .slick-track {
+        margin: 0 -0.625rem 0 -3.125rem;
+
+      }
+
+      .slick-track,
+      .slick-slide,
+      .slick-list {
+        height: $cardHeight;
+      }
+
+
+
+      .slick-slide {
+
+        width: 28.4375rem;
+        height: $cardHeight;
+        margin: 0 0.625rem;
+
+
+
+        .card {
+          width: 28.4375rem;
+          height: $cardHeight;
+          overflow: hidden;
+
+
+
+          img {}
+
+
+
+
+
+          .title {
+            //styleName: Mobile:Title2;
+            font-family: Work Sans;
+            font-size: 1.875rem;
+            font-weight: 300;
+            line-height: 2.125rem;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+            margin-bottom: 0.9375rem;
+
+          }
+
+          .sub-title {
+            //styleName: Mobile:Content;
+            font-family: Work Sans;
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.5rem;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+          }
+
+
+
+
+        }
+      }
+
+    }
+
+
+  }
+}

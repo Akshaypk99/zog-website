@@ -1,0 +1,482 @@
+.quality-assurance-page {
+
+
+
+
+
+
+
+
+  .sec-5 {
+    width: 100%;
+
+    .inner {
+      width: 984px;
+      margin: 0 auto;
+
+      h1 {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #ababab;
+      }
+
+      .segment {
+        display: flex;
+        padding: 20px 15px;
+        margin: 100px 0;
+
+        .number {
+          font-family: Work Sans;
+          font-size: 56px;
+          font-weight: 700;
+          line-height: 65px;
+          letter-spacing: -0.03em;
+          text-align: left;
+          color: #959393;
+
+        }
+
+        .text-box {}
+      }
+
+      .segment.even {
+        border-left: 11px solid #66C6EB;
+        justify-content: flex-start;
+        text-align: left;
+
+        .number {
+          margin-right: 30px;
+        }
+
+      }
+
+      .segment.odd {
+        border-right: 11px solid #66C6EB;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+
+        .number {
+          margin-left: 40px;
+        }
+
+        h2,
+        p {
+          text-align: right;
+
+        }
+      }
+    }
+  }
+
+  .sec-6 {
+    width: 100%;
+    height: fit-content;
+
+    padding: 162px 0;
+
+    .inner {
+
+      width: 1121px;
+      margin: 0 auto;
+
+      h1 {
+       
+        text-align: left;
+        position: relative;
+        margin-bottom: 50PX;
+      }
+
+      >.h1::before {
+        content: '';
+        width: 95px;
+        height: 7px;
+        border-radius: 30px;
+        background: #26B2E3;
+        position: absolute;
+        top: -5px;
+        left: 0;
+      }
+
+      .flex-box {
+        display: flex;
+        justify-content: space-between;
+
+        .column {
+          width: 356px;
+
+          .card {
+            width: 100%;
+            height: fit-content;
+            overflow: hidden;
+            border-radius: 30px;
+            margin-bottom: 30px;
+            border: unset;
+
+            .img-box {
+              width: 100%;
+              height: 254px;
+              overflow: hidden;
+
+              img {
+                width: 100%;
+              }
+
+            }
+
+            .text-box {
+              padding: 30px 30px;
+              background: #F9FBFD;
+
+              .title {
+                font-family: Work Sans;
+                font-size: 51px;
+                font-weight: 300;
+                line-height: 56px;
+                letter-spacing: -0.03em;
+                text-align: left;
+                margin-bottom: 10px;
+
+
+              }
+
+              .sub-title {
+                font-family: Work Sans;
+                font-size: 26px;
+                font-weight: 300;
+                line-height: 38px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+
+              }
+            }
+
+          }
+        }
+      }
+
+
+
+
+    }
+
+  }
+
+
+
+
+}
+
+@media (max-width: 991px) {
+  .quality-assurance-page {
+
+
+
+
+
+
+    .sec-5 {
+
+      .inner {
+        width: 594px;
+
+        h1 {
+          padding-bottom: 30px;
+          border-bottom: unset;
+          margin-bottom: -100px;
+        }
+
+        .segment {
+          display: flex;
+          padding: 20px 15px;
+          margin: 150px 0;
+          
+          .number {
+            font-size: 56px;
+            line-height: 65px;
+
+          }
+
+          .text-box {}
+        }
+        
+        .segment.even {
+          border-left: 11px solid #66C6EB;
+          justify-content: flex-start;
+          text-align: left;
+
+          .number {
+            margin-right: 30px;
+          }
+
+        }
+        
+        .segment.odd {
+          border-right: 11px solid #66C6EB;
+          justify-content: flex-end;
+          flex-direction: row-reverse;
+
+          .number {
+            margin-left: 40px;
+          }
+
+          h2,
+          p {
+            text-align: right;
+
+          }
+        }
+
+        
+      }
+    }
+
+    .sec-6 {
+      width: 100%;
+      height: fit-content;
+
+      padding: 162px 0;
+
+      .inner {
+
+        width: 681px;
+        margin: 0 auto;
+
+        h1 {
+
+        
+          margin-bottom: 50PX;
+        }
+
+        >h1::before {
+          content: '';
+          width: 95px;
+          height: 7px;
+          border-radius: 30px;
+          background: #26B2E3;
+          position: absolute;
+          top: -5px;
+          left: 0;
+        }
+
+        .flex-box {
+          display: flex;
+          justify-content: space-between;
+
+          .column {
+            width: 332px;
+
+            .card {
+              width: 100%;
+              height: fit-content;
+              overflow: hidden;
+              border-radius: 30px;
+              margin-bottom: 30px;
+              border: unset;
+
+              .img-box {
+                width: 100%;
+                height: 254px;
+                overflow: hidden;
+
+                img {
+                  width: 100%;
+                }
+
+              }
+
+              .text-box {
+                padding: 30px 30px;
+                background: #F9FBFD;
+
+                .title {
+                  font-family: Work Sans;
+                  font-size: 51px;
+                  font-weight: 300;
+                  line-height: 56px;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+                  margin-bottom: 10px;
+
+
+                }
+
+                .sub-title {
+                  font-family: Work Sans;
+                  font-size: 22px;
+                  line-height: 36px;
+                  font-weight: 300;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+
+
+                }
+              }
+
+            }
+          }
+        }
+
+
+      }
+
+    }
+
+  }
+}
+
+
+@media (max-width:767px) {
+  .quality-assurance-page {
+
+
+
+
+
+
+    .sec-5 {
+
+      .inner {
+        width: 83.733%;
+
+        h1 {
+          padding-bottom: 1.875rem;
+          border-bottom: unset;
+        }
+
+        .segment {
+          display: flex;
+          padding: 1.25rem 0.3125rem;
+          margin: 2.5rem 0;
+          border-top: 0.375rem solid #66C6EB;
+
+          .number {
+            font-size: 3.5rem;
+            line-height: 4.0625rem;
+
+          }
+
+          .text-box {}
+        }
+
+        .segment.even {
+          justify-content: flex-start;
+          text-align: left;
+          border-left: none;
+
+          .number {
+            margin-right: 1.875rem;
+          }
+
+        }
+
+        .segment.odd {
+          justify-content: flex-end;
+          flex-direction: row-reverse;
+          border-right: none;
+
+          .number {
+            margin-left: 2.5rem;
+          }
+
+          h2,
+          p {
+            text-align: right;
+
+          }
+        }
+      }
+    }
+
+    .sec-6 {
+      width: 100%;
+      height: fit-content;
+
+      padding: 10.125rem 0;
+
+      .inner {
+
+        width: 16.9375rem;
+        margin: 0 auto;
+
+        h1 {
+
+          font-size: 2.125rem;
+          line-height: 2.3125rem;
+          margin-bottom: 50PX;
+        }
+
+        >h1::before {
+          content: '';
+          width: 5.9375rem;
+          height: 0.4375rem;
+          border-radius: 1.875rem;
+          background: #26B2E3;
+          position: absolute;
+          top: -0.3125rem;
+          left: 0;
+        }
+
+        .flex-box {
+          display: flex;
+          justify-content: space-between;
+
+          .column {
+            width: 16.9375rem;
+
+            .card {
+              width: 100%;
+              height: fit-content;
+              overflow: hidden;
+              border-radius: 1.875rem;
+              margin-bottom: 1.875rem;
+              border: unset;
+
+              .img-box {
+                width: 100%;
+                height: 12.0625rem;
+                overflow: hidden;
+
+                img {
+                  width: 100%;
+                }
+
+              }
+
+              .text-box {
+                padding: 1.875rem 1.875rem;
+                background: #F9FBFD;
+
+                .title {
+                  font-family: Work Sans;
+                  font-size: 1.875rem;
+                  font-weight: 300;
+                  line-height: 2.125rem;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+                  margin-bottom: 0.625rem;
+
+
+                }
+
+                .sub-title {
+                  font-family: Work Sans;
+                  font-size: 1rem;
+                  font-weight: 300;
+                  line-height: 1.5rem;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+
+
+                }
+              }
+
+            }
+          }
+        }
+
+
+      }
+
+    }
+  }
+}

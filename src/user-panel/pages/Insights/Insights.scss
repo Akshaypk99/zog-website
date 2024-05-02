@@ -1,0 +1,391 @@
+.insights-page {
+
+
+  .sec-2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -100px;
+    padding-bottom: 70px;
+
+    .slider {
+      width: 100%;
+      background-color: transparent;
+      width: 100%;
+      overflow-x: scroll;
+      margin-bottom: 60px;
+      padding-bottom: 6px;
+      /* Increase/decrease this value for cross-browser compatibility */
+      box-sizing: content-box;
+
+      /* So the width will be 100% + 17px */
+      .slider-list {
+        display: flex;
+        width: fit-content;
+
+        .big-card {
+          width: 877px;
+          height: 360px;
+          display: flex;
+          margin-right: 50px;
+
+          box-shadow: 0px 4px 34px 0px #00000014;
+
+          img {}
+
+          .text-box {
+            background-color: #fff;
+            padding: 75px 95px 75px 90px;
+
+            .date {
+              //styleName: Web : Content;
+              font-family: Work Sans;
+              font-size: 18px;
+              font-weight: 300;
+              line-height: 24px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              margin-bottom: 20px;
+              color: #959393;
+
+            }
+
+            .title {
+              //styleName: Web:Title1;
+              font-family: Work Sans;
+              font-size: 38px;
+              font-weight: 300;
+              line-height: 44px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              margin-bottom: 20px;
+
+            }
+
+            .description {
+              //styleName: Web:Content-small;
+              font-family: Work Sans;
+              font-size: 18px;
+              font-weight: 300;
+              line-height: 24px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              color: #959393;
+            }
+
+            .auther {
+              //styleName: Web : Content;
+              font-family: Work Sans;
+              font-size: 20px;
+              font-weight: 300;
+              line-height: 30px;
+              letter-spacing: -0.03em;
+              text-align: left;
+
+            }
+          }
+        }
+      }
+    }
+
+    .menu-scroller {
+      width: 100%;
+      overflow-x: scroll;
+      margin-bottom: 20px;
+      padding-bottom: 6px;
+      /* Increase/decrease this value for cross-browser compatibility */
+      box-sizing: content-box;
+
+      /* So the width will be 100% + 17px */
+      .menu-track {
+        display: flex;
+        width: fit-content;
+
+        .small-card {
+          width: 522px;
+          height: 324px;
+          padding: 30px;
+          border-bottom: 7px solid #ababab;
+          margin-right: 20px;
+
+          .date {
+            //styleName: Web : Content;
+            font-family: Work Sans;
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 38px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            margin-bottom: 10px;
+            color: #959393;
+
+          }
+
+          .title {
+            //styleName: Web:Title-table;
+            font-family: Work Sans;
+            font-size: 32px;
+            font-weight: 300;
+            line-height: 38px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            margin-bottom: 10px;
+            width: 300px;
+          }
+
+          .description {
+            //styleName: Web:Content-small;
+            font-family: Work Sans;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            color: #959393;
+
+          }
+
+          .auther {
+            //styleName: Web : Content;
+            font-family: Work Sans;
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 38px;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+          }
+        }
+
+        .small-card.active {
+          border-bottom: 7px solid #66C6EB;
+
+        }
+      }
+    }
+
+    .arrow-box {
+      display: flex;
+      width: 100px;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      margin-bottom: 50px;
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    button {
+      margin: 0 auto;
+    }
+  }
+
+
+
+
+
+
+}
+
+@media (max-width: 991px) {
+  .insights-page {
+    .sec-2 {
+
+      margin-top: -100px;
+      padding-bottom: 70px;
+
+      .slider {
+        margin-bottom: 60px;
+
+        .slider-list {
+          display: flex;
+          width: fit-content;
+
+          .big-card {
+            width: 657px;
+            height: 461px;
+
+            img {
+              width: 260px;
+            }
+
+            .text-box {
+              padding: 91px 0px 91px 40px;
+
+              .date {
+                font-size: 26px;
+                line-height: 38px;
+                margin-bottom: 20px;
+
+              }
+
+              .title {
+                font-size: 48px;
+                line-height: 56px;
+                margin-bottom: 20px;
+
+              }
+
+              .description {
+                font-size: 20px;
+                line-height: 28px;
+
+              }
+
+              .auther {
+                font-size: 26px;
+                line-height: 38px;
+
+              }
+            }
+          }
+        }
+      }
+
+      .menu-scroller {
+        margin-bottom: 60px;
+
+        .menu-track {
+
+          .small-card {
+            width: 522px;
+            height: 324px;
+            padding: 30px;
+
+            .date {
+              font-size: 26px;
+              line-height: 38px;
+
+            }
+
+            .title {
+              font-size: 32px;
+              line-height: 38px;
+              margin-bottom: 10px;
+              width: 300px;
+            }
+
+            .description {
+              font-size: 20px;
+              line-height: 28px;
+
+            }
+
+            .auther {
+              font-size: 26px;
+              line-height: 38px;
+
+            }
+          }
+
+        }
+      }
+
+      button {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .insights-page {
+    .sec-2 {
+
+      margin-top: -6.25rem;
+      padding-bottom: 4.375rem;
+
+      .slider {
+        margin-bottom: 3.75rem;
+        height: 37.5rem;
+
+        .slider-list {
+          display: flex;
+          width: fit-content;
+          height: 36.875rem;
+
+          .big-card {
+            width: 20rem;
+            height: 36.5rem;
+            display: block;
+
+            img {
+              width: 100%;
+            }
+
+            .text-box {
+              padding: 3.125rem 0rem 3.125rem 2.5rem;
+
+              .date {
+                font-size: 1rem;
+                line-height: 1.5rem;
+                margin-bottom: 1.25rem;
+
+              }
+
+              .title {
+                font-size: 1.875rem;
+                line-height: 2.125rem;
+                margin-bottom: 1.25rem;
+
+              }
+
+              .description {
+                font-size: 1rem;
+                line-height: 1.5rem;
+
+              }
+
+              .auther {
+                font-size: 1rem;
+                line-height: 1.5rem;
+
+              }
+            }
+          }
+        }
+      }
+
+      .menu-scroller {
+        margin-bottom: 3.75rem;
+
+        .menu-track {
+
+          .small-card {
+            width: 20rem;
+            height: 12.5rem;
+            padding: 1.875rem;
+
+            .date {
+              font-size: 1rem;
+              line-height: 1.5rem;
+
+            }
+
+            .title {
+              font-size: 1.75rem;
+              line-height: 2rem;
+              margin-bottom: 0.625rem;
+              width: 18.75rem;
+            }
+
+            .description {
+              font-size: 1rem;
+              line-height: 1.5rem;
+            }
+
+            .auther {
+              font-size: 1rem;
+              line-height: 1.5rem;
+
+            }
+          }
+
+        }
+      }
+
+    }
+  }
+}

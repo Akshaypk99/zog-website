@@ -1,0 +1,216 @@
+.three-cards-section {
+  width: 1121px;
+  margin: 0 auto;
+  padding: 92px 0;
+
+  .text-box {
+    padding: 0 72px;
+
+    h1 {
+
+      text-align: left;
+      margin-bottom: 30px;
+    }
+
+    p {
+
+      text-align: left;
+      margin-bottom: 100px;
+    }
+  }
+
+
+  .flex-box {
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+      width: 347px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #F9FBFD;
+      padding: 50px;
+      border-radius: 30px;
+
+      img {
+        height: 141px;
+        width: fit-content;
+      }
+
+      .title {
+        //styleName: Web:Title-table;
+        font-family: Work Sans;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 38px;
+        letter-spacing: -0.03em;
+        text-align: center;
+        width: fit-content;
+
+
+
+      }
+
+      .description {
+        //styleName: Web:Content-small;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: -0.03em;
+        text-align: center;
+        width: fit-content;
+
+
+      }
+    }
+  }
+
+
+
+}
+.three-cards-section.left-align{
+  .flex-box{
+    .card{
+      align-items: flex-start;
+      .title, .description{
+        text-align: left;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .three-cards-section {
+    width: 592px;
+    margin: 0 auto;
+    padding: 92px 0;
+
+    .text-box {
+      padding: 0 0px;
+
+      h1 {
+
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 22px;
+        line-height: 36px;
+        margin-bottom: 70px;
+      }
+    }
+
+
+    .flex-box {
+      display: block;
+
+      .card {
+        width: 100%;
+
+        padding: 50px 115px;
+        margin-bottom: 30px;
+        height: fit-content !important;
+
+        img {
+          height: 141px;
+          margin-bottom: 38px;
+
+        }
+
+        .title {
+          //styleName: Web:Title-table;
+          font-family: Work Sans;
+          font-size: 32px;
+          font-weight: 300;
+          line-height: 38px;
+          letter-spacing: -0.03em;
+          text-align: center;
+          margin-bottom: 38px;
+
+        }
+
+        .description {
+          //styleName: Web:Content-small;
+          font-family: Work Sans;
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 28px;
+          letter-spacing: -0.03em;
+          text-align: center;
+
+        }
+      }
+    }
+
+
+
+  }
+}
+
+
+@media (max-width:767px) {
+  .three-cards-section {
+    width: 81.86%;
+    padding: 5.75rem 0;
+
+    .text-box {
+      padding: 0 0.375rem;
+
+      h1 {
+        font-size: 2.125rem;
+        line-height: 2.3125rem;
+        margin-bottom: 1.875rem;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 4.375rem;
+      }
+    }
+
+
+    .flex-box {
+      display: block;
+
+      .card {
+        width: 100%;
+
+        padding: 3.125rem;
+        margin-bottom: 1.875rem;
+        height: fit-content;
+
+        img {
+          height: 7.5625rem;
+        }
+
+        .title {
+          //styleName: Web:Title-table;
+          font-family: Work Sans;
+          font-size: 1.75rem;
+          font-weight: 300;
+          line-height: 2rem;
+          letter-spacing: -0.03em;
+          text-align: center;
+          margin-bottom: 1.5rem;
+        }
+
+        .description {
+          //styleName: Web:Content-small;
+          font-family: Work Sans;
+          font-size: 1.125rem;
+          font-weight: 300;
+          line-height: 1.625rem;
+          letter-spacing: -0.03em;
+          text-align: center;
+
+        }
+      }
+    }
+
+
+
+  }
+}

@@ -1,0 +1,156 @@
+.blue-notch-section {
+  width: 100%;
+  padding: 100px 0;
+
+  .inner {
+    width: 984px;
+    margin: 0 auto;
+
+    h1 {}
+
+    >p {
+      width: 100%;
+      margin-bottom: 70px;
+    }
+
+    .segment {
+      margin: 70px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h2 {
+        padding-left: 10px;
+        border-left: 11px solid #66C6EB;
+        width: fit-content
+      }
+
+    }
+
+    .segment.even {
+      align-items: flex-start;
+    }
+
+    .segment.odd {
+      align-items: flex-end;
+    }
+
+  }
+
+  
+}
+
+.blue-notch-section.type-2 {
+  .inner {
+    .segment {
+      flex-direction: row;
+      justify-content: space-between;
+      h2 {
+        font-family: Work Sans;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #959393;
+        margin-bottom: 0;
+      }
+      p{
+        width: 90%;
+      }
+    }
+    .segment.even {
+      align-items: center;
+      h2{
+        border-left: 11px solid #66C6EB;
+        border-right: none;
+        padding-left: 10px;
+        padding-right: 0px;
+      }
+
+    }
+
+    .segment.odd {
+      align-items: center;
+      flex-direction: row-reverse;
+      h2{
+        border-left:none;
+        border-right: 11px solid #66C6EB;
+        padding-left: 0px;
+        padding-right: 10px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 991px) {
+  .blue-notch-section {
+    width: 100%;
+    padding: 100px 0;
+
+    .inner {
+      width: 584px;
+      margin: 0 auto;
+
+      h1 {}
+
+      p {
+        margin-bottom: 70px;
+      }
+
+      .segment {
+        margin: 70px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+          border-left: 11px solid #66C6EB;
+          width: fit-content
+        }
+      }
+
+      .segment.even {
+        align-items: flex-start;
+      }
+
+      .segment.odd {
+        align-items: flex-end;
+      }
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .blue-notch-section {
+    padding: 50px 0;
+
+    .inner {
+      width: 276px;
+
+
+      p {
+        margin-bottom: 50px;
+      }
+
+      .segment {
+        margin: 50px 0;
+
+        h2 {
+          padding-left: 0;
+          border-left: none;
+          padding-top: 20px;
+          border-top: 5px solid #66C6EB;
+          width: 100%;
+
+        }
+      }
+
+      .segment.odd {
+        align-items: flex-start;
+      }
+    }
+  }
+}

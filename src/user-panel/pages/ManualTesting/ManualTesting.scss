@@ -1,0 +1,89 @@
+.manual-testing-page {
+ 
+
+  .sec-2 {
+    width: 976px;
+    margin: 0 auto;
+
+
+  }
+
+  .sec-3 {
+    width: 976px;
+    margin: 0 auto;
+
+
+
+  }
+
+  .sec-4 {
+    width: 976px;
+    margin: 0 auto;
+
+
+
+
+  }
+
+  .sec-5 {
+    width: 100%;
+    margin: 0 auto;
+    .inner{
+      width: 976px;
+      margin: 0 auto;
+      .title{
+        padding: 0px 0px;
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+  .sec-6 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+
+  .sec-7 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+
+  .sec-8 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+}
+
+@media (max-width: 991px) {
+  .manual-testing-page {
+    .sec-5 {
+      width: 100%;
+      margin: 0 auto;
+      .inner{
+        width: 578px;
+      }
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .manual-testing-page {
+    .sec-5 {
+      width: 100%;
+      margin: 0 auto;
+      .inner{
+        width: 100%;
+        .title{
+
+          padding: 20px 20px; 
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+.dev-ops-page {
+ 
+
+  .sec-2 {
+    width: 976px;
+    margin: 0 auto;
+
+
+  }
+
+
+  .sec-3-blue-notch-section {
+    width: 100%;
+    padding: 100px 0;
+    background: #13008B;
+    .inner {
+      width: 100%;
+      padding: 0px 150px;
+      margin: 0 auto;
+      color: #fff;
+      .title-sec{
+        width: 100%;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #ABABAB
+      }
+      img{
+        width: 100%;
+      }
+      h1 {
+        padding-bottom: 20px;
+      }
+  
+      p {
+        width: 100%;
+        margin-bottom: 70px;
+      }
+  
+      .segment {
+        margin: 70px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+        h2 {
+          padding-left: 10px;
+          border-left: 11px solid #66C6EB;
+          width: fit-content
+        }
+      }
+  
+      .segment.even {
+        align-items: flex-start;
+      }
+  
+      .segment.odd {
+        align-items: flex-end;
+      }
+    }
+  }
+    
+    
+
+
+
+  .sec-4 {
+    width: 976px;
+    margin: 0 auto;
+
+
+
+
+  }
+
+  .sec-5 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+
+  .sec-6 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+
+  .sec-7 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+
+  .sec-8 {
+    width: 976px;
+    margin: 0 auto;
+
+  }
+}
+
+@media (max-width: 991px) {
+  .dev-ops-page {
+    .sec-3-blue-notch-section {
+      width: 100%;
+      padding: 100px 0;
+    
+      .inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 80px;
+        .title-sec{
+          padding: 20px;
+        }
+    
+        p {
+          margin-bottom: 70px;
+        }
+    
+        .segment {
+          margin: 70px 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 20px;
+          h2 {
+            border-left: 11px solid #66C6EB;
+            width: fit-content
+          }
+        }
+    
+        .segment.even {
+          align-items: flex-start;
+        }
+    
+        .segment.odd {
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .dev-ops-page {
+    .sec-3-blue-notch-section {
+      padding: 50px 0;
+    
+      .inner {
+        width: 100%;
+        padding: 0px ;
+    
+        p {
+          margin-bottom: 50px;
+        }
+    
+        .segment {
+          margin: 50px 0;
+          h2 {
+            padding-left: 0;
+            border-left: none;
+            padding-top: 20px;
+            border-top: 5px solid #66C6EB;
+            width: 100%;
+  
+          }
+        }
+      .segment.odd {
+          align-items: flex-start;
+        }
+      }
+    }
+  }
+}

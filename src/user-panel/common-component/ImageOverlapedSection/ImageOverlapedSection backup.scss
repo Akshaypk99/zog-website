@@ -1,0 +1,154 @@
+.image-overlaped-section {
+  width: 1053px;
+  margin: 0 auto;
+  padding: 150px 0;
+
+  h1 {
+    margin-bottom: 70px;
+  }
+
+  >p {
+    margin-bottom: 70px;
+  }
+
+  .sub-sec {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+    .lhs {
+      width: 542px;
+
+    }
+
+    .rhs {
+      width: 411px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      .number {
+        font-family: Work Sans;
+        font-size: 62px;
+        font-weight: 600;
+        line-height: 65px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #ABABAB;
+        ;
+      }
+    }
+  }
+
+  .image-at-left {
+    flex-direction: row;
+
+    .rhs {
+
+    }
+  }
+
+  .image-at-right {
+    flex-direction: row-reverse;
+
+  }
+}
+
+@media (max-width: 991px) {
+  .image-overlaped-section {
+    width: 684px;
+    margin: 0 auto;
+    padding: 150px 0;
+
+    h1 {
+      margin-bottom: 70px;
+    }
+
+    >p {
+      margin-bottom: 70px;
+    }
+
+    .sub-sec {
+      display: block;
+      margin-bottom: 150px;
+
+      .lhs {
+        width: 100%;
+
+        img {
+          width: 100%;
+          margin-bottom: 40px;
+        }
+      }
+
+      .rhs {
+        width: 100%;
+        align-items: center;
+
+        h2,
+        p {
+          width: 575px;
+        }
+      }
+    }
+
+    .image-at-left {
+      flex-direction: row;
+    }
+
+    .image-at-right {
+      flex-direction: row-reverse;
+
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .image-overlaped-section {
+    width: 100%;
+
+    padding: 150px 0;
+
+    h1 {
+      margin-bottom: 70px;
+      padding-left: 12px;
+    }
+
+    >p {
+      margin-bottom: 70px;
+      padding-left: 12px;
+
+    }
+
+    .sub-sec {
+
+      margin-bottom: 70px;
+
+      .lhs {
+        width: 100%;
+
+        img {
+          width: 100%;
+          margin-bottom: 40px;
+        }
+      }
+
+      .rhs {
+        width: 100%;
+        align-items: flex-start;
+        padding-left: 22px;
+
+        h2,
+        p {
+          width: 282px;
+        }
+      }
+    }
+
+
+
+  }
+}

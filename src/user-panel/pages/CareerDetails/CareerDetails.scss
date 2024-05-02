@@ -1,0 +1,215 @@
+.career-details-page {
+ 
+
+  .sec-2 {
+    width: 997px;
+    margin: 0 auto;
+    padding: 25px 0px 25px 0px;
+
+    .top-bar{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-family: Work Sans;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 44px;
+      padding: 25px 0px 25px 0px;
+
+      .career, .home{
+        cursor: pointer;
+      }
+    }
+    .details{
+      margin-top: 38px;
+      font-family: Work Sans;
+
+      .lhs{
+        .btns{
+          display: flex;
+          padding: 30px 15px 30px 0px;
+          border-bottom: 1px solid #ABABAB;
+          justify-content: space-between;
+          .button-black-box{
+            font-family: 'Poppins';
+            font-size: 18px;
+            line-height: 24px;
+            padding: 0px 50px 0px 50px;
+          }
+        }
+        .detail{
+          margin-top: 30px;
+          padding: 25px 15px 25px 0px;
+          border-bottom: 1px solid #ABABAB;
+
+          .salary{
+            display: flex;
+            flex-direction: column;
+            .salary-btn{
+              width: fit-content;
+              margin-top: 18px;
+              font-size: 20px;
+              font-weight: 600;
+              color: #0D4972;
+              background-color: #E5F7FF;
+              border-radius: 25px;
+              padding: 5px 27px 5px 27px;
+            }
+          }
+          
+          .data-key,.data-value{
+            font-size: 26px;
+            line-height: 38px;
+            font-weight: 300;
+          }
+          .data-value{
+            font-weight: 500;
+            text-transform: capitalize;
+            letter-spacing: -1px;
+          }
+          .data-value.job-id{
+            text-transform: uppercase;
+          }
+        }
+      }
+      .rhs{
+        padding-left: 80px;
+        h3{
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 38px;
+          padding: 0;
+        }
+      
+        .detail{
+          border-bottom: 1px solid #ABABAB;
+          margin-bottom: 80px;
+          
+          .role{
+            padding: 30px 0px 30px 30px;
+          }
+          .skillset{
+            padding: 30px 0px 30px 30px;
+            .req-skill{
+              color: #5C6366;
+              padding-bottom: 5px;
+            }
+          }
+
+        }
+        .detail.about, .detail.policy ,.detail.job-role {
+          border-bottom:none;
+          p{
+            padding: 0;
+            padding-top: 10px;
+          }
+        }
+        .detail.skill{
+          border-bottom: none;
+          .skill-descr{
+            padding: 0;
+            padding-top: 10px;
+            border-top: 1px solid #ABABAB;
+
+          }
+        }
+        .detail.job-role {
+          p{
+            padding: 10px 0px 30px 30px;
+            border-bottom: 1px solid #ABABAB;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 991px) {
+  .career-details-page {
+    .sec-2{
+      width: 73%;
+      .lhs{
+        width: 90%;
+        margin: auto;
+        .btns{
+          justify-content: flex-start !important;
+          .button-black-box{
+            margin-right: 22px;
+          }
+        }
+        .detail{
+          margin-top: 0 !important;
+          .salary{
+            display: block !important; 
+            .salary-btn{
+              margin-left: 20px;
+              font-size: 16px !important;
+            }
+          }
+        }
+        .data-key,.data-value{
+          font-size: 16px !important;
+          line-height: 24px !important;
+          font-weight: 300;
+          
+        }
+        .data-value{
+          font-size: 18px !important;
+          font-weight: 500;
+        }
+        
+      }
+      .rhs{
+        width: 100%;
+        padding-left: .5rem !important;
+        margin-top: 2rem;
+        
+        
+      }
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .career-details-page {
+    .sec-2{
+      width: 90%;
+      
+      .lhs{
+        width: 100%;
+        margin: auto;
+        .btns{
+          display: flex;
+          padding: 30px 15px 30px 0px;
+          border-bottom: 1px solid #ABABAB;
+          justify-content: flex-start !important;
+          .button-black-box{
+            font-family: 'Poppins';
+            font-size: 18px;
+            line-height: 24px;
+            padding: 0px 25px 0px 25px !important;
+            margin-right: 20px;
+          }
+        }
+
+      }
+      .rhs{
+        h3{
+          font-size:  32px !important;
+          font-weight: 600;
+          line-height: 38px !important;
+        }
+        .detail{
+          margin-bottom: 40px !important;
+          .role, .skillset{
+            padding-left: 0 !important;
+          }
+        
+        }
+      }
+    }
+  }
+}

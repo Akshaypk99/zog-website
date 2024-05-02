@@ -1,0 +1,46 @@
+.invoice .status{
+    border-radius: 5px;
+    color: white;
+    width: 105px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .invoice .status.completed{
+        background: #E05A67;
+    
+    }
+    
+    .invoice .status.pending{
+    background: #1C2D51;
+    }
+    
+    .invoice .status.invoicesent{
+        background: #AAE07E;
+    }
+    
+    
+    .invoice table{
+        width: max-content;
+        transform:rotateX(180deg);
+      -moz-transform:rotateX(180deg); /* Mozilla */
+      -webkit-transform:rotateX(180deg); /* Safari and Chrome */
+      -ms-transform:rotateX(180deg); /* IE 9+ */
+      -o-transform:rotateX(180deg); /* Opera */
+    }
+    
+    .invoice thead th {
+        width: auto;
+    }
+    
+    .invoice td, th {
+        padding: 16px 24px;
+        text-align: left;
+    }
+
+    .invoice tr:nth-child(odd) {
+        /* background-color: #ebf3f9; */
+        background-color: rgba(224, 90, 103, 0.11);
+    }

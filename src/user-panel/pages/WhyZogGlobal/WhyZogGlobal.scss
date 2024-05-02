@@ -1,0 +1,1147 @@
+.why-zog-global-page {
+
+
+  .sec-2 {
+    width: 976px;
+    margin: -80px auto 0 auto;
+
+    img {
+      width: 100%;
+    }
+
+    div {
+      width: 100%;
+      padding: 40px 30px 100px 30px;
+
+      p {
+
+        text-align: center;
+      }
+    }
+
+  }
+
+  .sec-3 {
+    background-color: #000;
+    color: #FFF;
+    padding: 125px 0;
+
+    .inner {
+      width: 88.6718%;
+      margin: 0 0 0 auto;
+
+      h1 {
+
+        text-align: left;
+        margin-bottom: 60px;
+      }
+
+      .blue-box {
+        width: 100%;
+        height: 964px;
+        margin: 0 0 0 auto;
+        padding: 67px 80px;
+        background: #0B79B7;
+        background-image: url("../../../../public/images/why-zog-global/sec-3.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+
+        .sub-title {
+          font-family: Work Sans;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 65px;
+          letter-spacing: 0em;
+          text-align: left;
+          padding-left: 40px;
+          border-bottom: 1px solid #fff;
+          margin-bottom: 100px;
+        }
+
+        .segment {
+          padding: 30px 0 30px 47px;
+          width: 513px;
+          border-bottom: 1px solid #fff;
+
+          .title {
+            //styleName: Web:Title1;
+            font-family: Work Sans;
+            font-size: 51px;
+            font-weight: 300;
+            line-height: 1;
+            letter-spacing: -0.03em;
+            text-align: left;
+            margin-bottom: 30px;
+          }
+
+          .description {
+            //styleName: Web:Content-small;
+            font-family: Work Sans;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+          }
+        }
+
+        .segment-3 {
+          border-bottom: unset;
+        }
+      }
+    }
+
+
+  }
+
+  .sec-4 {
+    width: 984px;
+    margin: 0 auto;
+    padding: 127px 0;
+
+    h1 {}
+
+    >p {
+
+      text-align: left;
+      margin-bottom: 100px;
+
+    }
+
+    .segment {
+      height: 400px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      h1 {
+
+        text-align: left;
+
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+
+    .segment.odd {
+      background-position: 0% 0%;
+
+      h2,
+      p {
+        text-align: left;
+      }
+    }
+
+    .segment.even {
+      background-position: 100% 0%;
+
+      h2,
+      p {
+        text-align: right;
+      }
+    }
+    .segment-1{
+     // background-image: url("../../../../public/images/why-zog-global/sec-4-1.gif");
+    }
+    .segment-2{
+      background-image: url("../../../../public/images/why-zog-global/sec-4-2.gif");
+    }
+    .segment-3{
+      background-image: url("../../../../public/images/why-zog-global/sec-4-3.gif");
+    }
+    .segment-4{
+      background-image: url("../../../../public/images/why-zog-global/sec-4-4.gif");
+    }
+    .segment-5{
+      background-image: url("../../../../public/images/why-zog-global/sec-4-5.gif");
+    }
+    .segment-6{
+      background-image: url("../../../../public/images/why-zog-global/sec-4-6.gif");
+    }
+
+
+
+  }
+
+  .sec-5 {
+    width: 100%;
+    height: fit-content;
+    background: #F9FBFD;
+    padding: 100px 0;
+
+    .inner {
+      padding: 62px 0 62px 0;
+      width: 100%;
+      height: fit-content;
+      margin: 0 0 0 auto;
+      position: relative;
+
+      justify-content: space-between;
+
+      .next-button {
+        right: 100px;
+        top: 640px;
+        position: absolute;
+        z-index: 2;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+      }
+
+      .prev-button {
+        left: calc(100% - 200px);
+        top: 640px;
+        position: absolute;
+        z-index: 2;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+      }
+
+      .prev-button::before {
+
+        content: url(../../../../public/images/slick-buttons/prev-arrow-black-web.svg);
+        height: 100%;
+        display: block;
+
+      }
+
+      .next-button::before {
+        content: url(../../../../public/images/slick-buttons/next-arrow-black-web.svg);
+        height: 100%;
+        display: block;
+      }
+
+      .next-button:hover{
+        right: 90px;
+      }
+      .prev-button:hover{
+        left: calc(100% - 220px);
+
+      }
+
+      .track {
+        width: 100%;
+        padding-left: 150px;
+        $cardHeight: 540px;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        margin: 0 -10px 0 -50px;
+        height: $cardHeight;
+
+        .list {
+          display: flex;
+          width: fit-content;
+          
+
+        }
+        
+        .first-card {
+
+          display: flex;
+          align-items: center;
+          width: 455px;
+          height: $cardHeight;
+          margin-right: 30px;
+
+          h1 {
+            margin-bottom: 0;
+            text-align: left;
+            position: relative;
+          }
+
+          h1::before {
+            content: '';
+            width: 95px;
+            height: 7px;
+            border-radius: 30px;
+            background: #26B2E3;
+            position: absolute;
+            top: -5px;
+            left: 0;
+          }
+        }
+
+        .card {
+          width: 455px;
+          height: $cardHeight;
+          overflow: hidden;
+          border-radius: 0px;
+          border: unset;
+          margin-right: 30px;
+
+          .img-box {
+            width: 100%;
+            height: 207px;
+            overflow: hidden;
+
+            img {
+              width: unset;
+              height: 100%;
+            }
+
+          }
+
+          .text-box {
+            padding: 30px 20px;
+
+            .title {
+              //styleName: Web:Title1;
+              font-family: Work Sans;
+              font-size: 34px;
+              font-weight: 300;
+              line-height: 40px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              margin-bottom: 15px;
+
+            }
+
+            .sub-title {
+              //styleName: Web : Content;
+              font-family: Work Sans;
+              font-size: 20px;
+              font-weight: 300;
+              line-height: 32px;
+              letter-spacing: -0.03em;
+              text-align: left;
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 5;
+              /* number of lines to show */
+              line-clamp: 5;
+              -webkit-box-orient: vertical;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sec-6 {
+    width: 100%;
+    height: fit-content;
+
+    padding: 162px 0;
+
+    .inner {
+
+      width: 1121px;
+      margin: 0 auto;
+
+      h1 {
+
+        text-align: left;
+        position: relative;
+        margin-bottom: 50PX;
+      }
+
+      >h1::before {
+        content: '';
+        width: 95px;
+        height: 7px;
+        border-radius: 30px;
+        background: #26B2E3;
+        position: absolute;
+        top: -5px;
+        left: 0;
+      }
+
+      .flex-box {
+        display: flex;
+        justify-content: space-between;
+
+        .column {
+          width: 356px;
+
+          .card {
+            width: 100%;
+            height: fit-content;
+            overflow: hidden;
+            border-radius: 30px;
+            margin-bottom: 30px;
+            border: unset;
+
+            .img-box {
+              width: 100%;
+              height: 254px;
+              overflow: hidden;
+
+              img {
+                width: 100%;
+              }
+
+            }
+
+            .text-box {
+              padding: 30px 30px;
+              background: #F9FBFD;
+
+              .title {
+                font-family: Work Sans;
+                font-size: 51px;
+                font-weight: 300;
+                line-height: 56px;
+                letter-spacing: -0.03em;
+                text-align: left;
+                margin-bottom: 10px;
+
+
+              }
+
+              .sub-title {
+                font-family: Work Sans;
+                font-size: 26px;
+                font-weight: 300;
+                line-height: 38px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+
+              }
+            }
+
+          }
+        }
+      }
+
+
+
+
+    }
+
+  }
+}
+
+@media (max-width: 991px) {
+  .why-zog-global-page {
+
+
+    .sec-2 {
+      width: 100%;
+      margin: -80px auto 0 auto;
+
+
+
+      div {
+
+        padding: 86px 46px 86px 46px;
+
+
+      }
+
+    }
+
+    .sec-3 {
+      background-color: #000;
+      color: #FFF;
+      padding: 140px 0;
+
+      .inner {
+        width: 100%;
+        margin: 0 0 0 0;
+
+        h1 {
+          letter-spacing: -0.03em;
+          text-align: left;
+          padding-left: 40px;
+
+        }
+
+        .blue-box {
+          width: 100%;
+          height: 910px;
+          margin: 0 0 0 auto;
+          padding: 67px 80px;
+          background: #0B79B7;
+          background-image: url("../../../../public/images/why-zog-global/sec-3-tab.png");
+          background-repeat: no-repeat;
+          background-position: center top;
+
+          .sub-title {
+            font-family: Work Sans;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 60px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-left: 30px;
+            margin-bottom: 300px;
+          }
+
+          .slick-slider {
+            $cardHeight: 232px;
+
+            .slick-next {
+              left: 100px;
+              top: 297px;
+            }
+
+            .slick-prev {
+              left: 10px;
+              top: 297px;
+            }
+
+            .slick-prev::before {
+
+              content: url(../../../../public/images/slick-buttons/prev-arrow-white-web.svg);
+              height: 100%;
+              display: block;
+
+            }
+
+            .slick-next::before {
+              content: url(../../../../public/images/slick-buttons/next-arrow-white-web.svg);
+              height: 100%;
+              display: block;
+            }
+
+            .slick-track {
+              margin: 0 -10px 0 -20px;
+
+            }
+
+            .slick-track,
+            .slick-slide,
+            .slick-list {
+              height: $cardHeight;
+            }
+
+
+
+            .slick-slide {
+
+              width: 582px;
+              height: $cardHeight;
+              margin: 0 10px;
+
+            }
+
+            .segment {
+              padding: 0px 0 0px 0px;
+              width: 582px;
+              border-bottom: unset;
+
+              .title {
+                font-family: Work Sans;
+                font-size: 52px;
+                font-weight: 300;
+                line-height: 55px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-bottom: 50px;
+              }
+
+              .description {
+                //styleName: Tab:Content;
+                font-family: Work Sans;
+                font-size: 22px;
+                line-height: 36px;
+                font-weight: 300;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+
+              }
+            }
+
+          }
+        }
+      }
+
+
+    }
+
+    .sec-4 {
+      width: 581px;
+      margin: 0 auto;
+      padding: 127px 0;
+
+      h1 {}
+
+      >p {
+        //styleName: Web : Content;
+
+        margin-bottom: 50px;
+
+      }
+
+      .segment {
+        height: 370px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+
+        h1 {
+          font-size: 50px;
+          line-height: 58px;
+
+        }
+
+        p {}
+      }
+
+
+
+
+
+
+    }
+
+    .sec-5 {
+
+      padding: 100px 0;
+
+      .inner {
+        padding: 62px 0 62px 0;
+        width: 100%;
+
+        height: fit-content;
+        margin: 0 auto !important;
+        display: block;
+
+
+        .first-card {
+          width: 100%;
+          display: flex;
+          align-items: center;
+
+          h1 {
+
+            margin-bottom: 40px;
+          }
+
+          h1::before {
+            content: '';
+            width: 95px;
+            height: 7px;
+            border-radius: 30px;
+            background: #26B2E3;
+            position: absolute;
+            top: -5px;
+            left: 0;
+          }
+        }
+
+        .track {
+          width: 100%;
+
+
+          .card {
+            width: 100%;
+            margin-bottom: 30px;
+            height: fit-content;
+            overflow: hidden;
+            border: unset;
+
+            .img-box {
+              width: 100%;
+              height: 207px;
+              overflow: hidden;
+
+              img {
+                width: 100%;
+              }
+
+            }
+
+            .text-box {
+              padding: 30px 20px;
+
+              .title {
+
+                font-size: 30px;
+                line-height: 38px;
+
+                margin-bottom: 15px;
+
+              }
+
+              .sub-title {
+                font-size: 18px;
+                line-height: 28px;
+              }
+            }
+
+          }
+        }
+      }
+    }
+
+    .sec-6 {
+      width: 100%;
+      height: fit-content;
+
+      padding: 162px 0;
+
+      .inner {
+
+        width: 681px;
+        margin: 0 auto;
+
+        h1 {
+          margin-bottom: 50PX;
+        }
+
+        >h1::before {
+          content: '';
+          width: 95px;
+          height: 7px;
+          border-radius: 30px;
+          background: #26B2E3;
+          position: absolute;
+          top: -5px;
+          left: 0;
+        }
+
+        .flex-box {
+          display: flex;
+          justify-content: space-between;
+
+          .column {
+            width: 332px;
+
+            .card {
+              width: 100%;
+              height: fit-content;
+              overflow: hidden;
+              border-radius: 30px;
+              margin-bottom: 30px;
+              border: unset;
+
+              .img-box {
+                width: 100%;
+                height: 254px;
+                overflow: hidden;
+
+                img {
+                  width: 100%;
+                }
+
+              }
+
+              .text-box {
+                padding: 30px 30px;
+                background: #F9FBFD;
+
+                .title {
+                  font-family: Work Sans;
+                  font-size: 51px;
+                  font-weight: 300;
+                  line-height: 56px;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+                  margin-bottom: 10px;
+
+
+                }
+
+                .sub-title {
+                  font-family: Work Sans;
+                  font-size: 22px;
+                  line-height: 36px;
+                  font-weight: 300;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+
+
+                }
+              }
+
+            }
+          }
+        }
+
+
+      }
+
+    }
+  }
+}
+
+
+@media (max-width:767px) {
+  .why-zog-global-page {
+
+
+    .sec-2 {
+      width: 20rem;
+      margin: -5rem auto 0 auto;
+
+
+
+      div {
+
+        padding: 2.5rem 0rem 3.125rem 0rem;
+
+        p {
+
+          font-size: 1rem;
+          line-height: 1.5rem;
+
+        }
+
+      }
+
+    }
+
+    .sec-3 {
+      background-color: #000;
+      color: #FFF;
+      padding: 3.125rem 0 0 0;
+      width: 100%;
+
+      .inner {
+        width: 100%;
+        margin: 0 0 0 0;
+
+        h1 {
+         
+          padding-left: 1.875rem;
+          margin-bottom: 1.875rem;
+        }
+
+        .blue-box {
+          width: 100%;
+          height: 56.875rem;
+          margin: 0 0 0 auto;
+          padding: 4.188rem 1.375rem;
+          background: #0B79B7;
+          background-image: url("../../../../public/images/why-zog-global/sec-3-mob.png");
+          background-repeat: no-repeat;
+          background-position: center top;
+
+          .sub-title {
+            font-family: Work Sans;
+            font-size: 1.125rem;
+            font-weight: 400;
+            line-height: 1.5625rem;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-left: 0rem;
+            margin-bottom: 18.75rem;
+          }
+
+          .slick-slider {
+            $cardHeight: 14.5rem;
+
+            .slick-next {
+              left: 5rem;
+              top: 18.5625rem;
+            }
+
+            .slick-prev {
+              left: 1.25rem;
+              top: 18.5625rem;
+            }
+
+            .slick-prev::before {
+
+              content: url(../../../../public/images/slick-buttons/prev-arrow-white-web.svg);
+              height: 100%;
+              display: block;
+
+            }
+
+            .slick-next::before {
+              content: url(../../../../public/images/slick-buttons/next-arrow-white-web.svg);
+              height: 100%;
+              display: block;
+            }
+
+            .slick-track {
+              margin: 0 -0.625rem 0 -1.25rem;
+
+            }
+
+            .slick-track,
+            .slick-slide,
+            .slick-list {
+              height: $cardHeight;
+            }
+
+
+
+            .slick-slide {
+
+              width: 12.625rem;
+              height: $cardHeight;
+              margin: 0 0.625rem;
+
+            }
+
+            .segment {
+              padding: 0rem 0 0rem 0rem;
+              width: 12.625rem;
+              border-bottom: unset;
+
+              .title {
+                font-family: Work Sans;
+                font-size: 2.375rem;
+                font-weight: 300;
+                line-height: 2.8125rem;
+                letter-spacing: -0.03em;
+                text-align: left;
+                padding: 0;
+                margin-bottom: 3.125rem;
+              }
+
+              .description {
+                //styleName: Tab:Content;
+                font-family: Work Sans;
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1.5rem;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+
+              }
+            }
+
+          }
+        }
+      }
+
+
+    }
+
+    .sec-4 {
+      width: 18rem;
+      margin: 0 auto;
+      padding: 6.25rem 0 3.125rem 0;
+
+      h1 {
+        font-size: 2.125rem;
+        line-height: 2.3125rem;
+        margin-bottom: 2.5rem;
+
+      }
+
+      >p {
+        //styleName: Web : Content;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 3.125rem;
+
+      }
+
+      .segment {
+        height: 23.125rem;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 60%;
+
+        h1 {
+          font-size: 1.875rem;
+          line-height: 2.125rem;
+
+        }
+
+        p {
+          font-size: 1rem;
+          line-height: 1.5rem;
+
+
+        }
+      }
+
+      .segment.odd{
+        background-position:10% 50% ;
+      
+      }
+      .segment.even{
+        background-position:80% 50% ;
+      
+      }
+
+
+    }
+
+    .sec-5 {
+
+      padding: 6.25rem 0;
+
+      .inner {
+        padding: 3.875rem 0 3.875rem 0;
+        width: 16.9375rem;
+        height: fit-content;
+        margin: 0 auto !important;
+        display: block;
+
+
+        .first-card {
+          width: 100%;
+          display: flex;
+          align-items: center;
+
+          h1 {
+            font-size: 2.125rem;
+            line-height: 2.3125rem;
+            margin-bottom: 2.5rem;
+          }
+
+          h1::before {
+            content: '';
+            width: 5.9375rem;
+            height: 0.4375rem;
+            border-radius: 1.875rem;
+            background: #26B2E3;
+            position: absolute;
+            top: -0.3125rem;
+            left: 0;
+          }
+        }
+
+
+
+        .card {
+          width: 100%;
+          margin-bottom: 1.875rem;
+          height: fit-content;
+          overflow: hidden;
+          border-radius: 1.875rem;
+          border: unset;
+
+          .img-box {
+            width: 100%;
+            height: 12.9375rem;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+            }
+
+          }
+
+          .text-box {
+            padding: 1.875rem 1.25rem;
+
+            .title {
+              //styleName: Mobile:Title2;
+              font-family: Work Sans;
+              font-size: 1.875rem;
+              font-weight: 300;
+              line-height: 2.125rem;
+              letter-spacing: -0.03em;
+              text-align: left;
+
+              margin-bottom: 0.9375rem;
+
+            }
+
+            .sub-title {
+              //styleName: Mobile:Content;
+              font-family: Work Sans;
+              font-size: 1rem;
+              font-weight: 300;
+              line-height: 1.5rem;
+              letter-spacing: -0.03em;
+              text-align: left;
+
+            }
+          }
+
+        }
+
+      }
+    }
+
+    .sec-6 {
+      width: 100%;
+      height: fit-content;
+
+      padding: 10.125rem 0;
+
+      .inner {
+
+        width: 16.9375rem;
+        margin: 0 auto;
+
+        h1 {
+
+          font-size: 2.125rem;
+          line-height: 2.3125rem;
+          margin-bottom: 50PX;
+        }
+
+        >h1::before {
+          content: '';
+          width: 5.9375rem;
+          height: 0.4375rem;
+          border-radius: 1.875rem;
+          background: #26B2E3;
+          position: absolute;
+          top: -0.3125rem;
+          left: 0;
+        }
+
+        .flex-box {
+          display: flex;
+          justify-content: space-between;
+
+          .column {
+            width: 16.9375rem;
+
+            .card {
+              width: 100%;
+              height: fit-content;
+              overflow: hidden;
+              border-radius: 1.875rem;
+              margin-bottom: 1.875rem;
+              border: unset;
+
+              .img-box {
+                width: 100%;
+                height: 12.0625rem;
+                overflow: hidden;
+
+                img {
+                  width: 100%;
+                }
+
+              }
+
+              .text-box {
+                padding: 1.875rem 1.875rem;
+                background: #F9FBFD;
+
+                .title {
+                  font-family: Work Sans;
+                  font-size: 1.875rem;
+                  font-weight: 300;
+                  line-height: 2.125rem;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+                  margin-bottom: 0.625rem;
+
+
+                }
+
+                .sub-title {
+                  font-family: Work Sans;
+                  font-size: 1rem;
+                  font-weight: 300;
+                  line-height: 1.5rem;
+                  letter-spacing: -0.03em;
+                  text-align: left;
+
+
+                }
+              }
+
+            }
+          }
+        }
+
+
+      }
+
+    }
+  }
+}

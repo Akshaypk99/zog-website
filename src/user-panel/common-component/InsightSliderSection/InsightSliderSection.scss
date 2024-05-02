@@ -1,0 +1,356 @@
+.insight-slider-section {
+  width: 100%;
+  padding: 0px 0 200px 0;
+
+  .headding-box {
+    width: 100%;
+    padding: 0px 150px 50px 150px;
+  }
+
+
+  .slick-slider {
+    $cardHeight: 460px;
+
+    .slick-next {
+      right: 100px;
+      top: 520px;
+    }
+
+    .slick-prev {
+      left: calc(100% - 200px);
+      top: 520px;
+    }
+
+    .slick-prev::before {
+
+      content: url(../../../../public/images/slick-buttons/prev-arrow-black-web.svg);
+      height: 100%;
+      display: block;
+
+    }
+
+    .slick-next::before {
+      content: url(../../../../public/images/slick-buttons/next-arrow-black-web.svg);
+      height: 100%;
+      display: block;
+    }
+
+    .slick-track {
+      margin: 0 -10px 0 -50px;
+
+    }
+
+    .slick-track,
+    .slick-slide,
+    .slick-list {
+      height: $cardHeight;
+    }
+
+
+
+    .slick-slide {
+
+
+      height: $cardHeight;
+      margin: 0 10px;
+
+
+
+      .card {
+        height: $cardHeight;
+        overflow: hidden;
+        border: 1px solid #D9D9D9;
+
+        .img-box {
+          width: 100%;
+          height: 207px;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+          }
+
+        }
+
+        .text-box {
+          padding: 30px 20px;
+
+          .title {
+            //styleName: Web:Title-table;
+            font-family: Work Sans;
+            font-size: 32px;
+            font-weight: 300;
+            line-height: 38px;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+            margin-bottom: 15px;
+
+            overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+          }
+
+
+          .auther {
+            //styleName: Web:Content-small;
+            font-family: Work Sans;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+
+          }
+
+          .date {
+            //styleName: Web:Content-small;
+            font-family: Work Sans;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            color: #959393;
+          }
+
+          .department {
+            //styleName: Web:Content-small;
+            font-family: Work Sans;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+          }
+        }
+
+
+
+      }
+    }
+
+  }
+
+
+}
+
+@media (max-width: 991px) {
+  .insight-slider-section {
+    width: 100%;
+    padding: 0px 0 100PX 0;
+
+    .headding-box {
+      padding: 50px 50px 40px 50px;
+    }
+
+  
+    .slick-slider {
+      $cardHeight: 560px;
+
+      .slick-next {
+        display: none !important;
+        right: 100px;
+        top: 760px;
+      }
+
+      .slick-prev {
+        display: none !important;
+        left: calc(100% - 200px);
+        top: 760px;
+      }
+
+      .slick-prev::before {
+
+        content: url(../../../../public/images/slick-buttons/prev-arrow-black-web.svg);
+        height: 100%;
+        display: block;
+
+      }
+
+      .slick-next::before {
+        content: url(../../../../public/images/slick-buttons/next-arrow-black-web.svg);
+        height: 100%;
+        display: block;
+      }
+
+      .slick-track {
+        margin: 0 -10px 0 -50px;
+
+      }
+
+      .slick-track,
+      .slick-slide,
+      .slick-list {
+        height: $cardHeight;
+      }
+
+
+
+      .slick-slide {
+
+        width: 455px;
+        height: $cardHeight;
+        margin: 0 10px;
+
+
+
+        .card {
+          width: 455px;
+          height: $cardHeight;
+          overflow: hidden;
+          
+
+          .img-box {
+            width: 100%;
+            height: 207px;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+            }
+
+          }
+
+          .text-box {
+            padding: 30px 20px;
+
+            .title {
+
+              font-size: 50px;
+              line-height: 58px;
+
+              margin-bottom: 15px;
+
+            }
+
+            .sub-title {}
+          }
+
+
+        }
+      }
+
+    }
+
+
+  }
+}
+
+
+@media (max-width:767px) {
+  .insight-slider-section {
+
+    padding: 0rem 0 4.375rem 0;
+
+    .headding-box {
+      padding: 3.125rem 0.75rem 2.5rem 0.75rem;
+    }
+
+
+    .slick-slider {
+      $cardHeight: 27.3125rem;
+
+      .slick-next {
+        right: 6.25rem;
+        top: 47.5rem;
+      }
+
+      .slick-prev {
+        left: calc(100% - 12.5rem);
+        top: 47.5rem;
+      }
+
+      .slick-prev::before {
+
+        content: url(../../../../public/images/slick-buttons/prev-arrow-black-web.svg);
+        height: 100%;
+        display: block;
+
+      }
+
+      .slick-next::before {
+        content: url(../../../../public/images/slick-buttons/next-arrow-black-web.svg);
+        height: 100%;
+        display: block;
+      }
+
+      .slick-track {
+        margin: 0 -0.625rem 0 -3.125rem;
+
+      }
+
+      .slick-track,
+      .slick-slide,
+      .slick-list {
+        height: $cardHeight;
+      }
+
+
+
+      .slick-slide {
+
+        width: 28.4375rem;
+        height: $cardHeight;
+        margin: 0 0.625rem;
+
+
+
+        .card {
+          width: 28.4375rem;
+          height: $cardHeight;
+          overflow: hidden;
+          
+          .img-box {
+            width: 100%;
+            height: 12.9375rem;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+            }
+
+          }
+
+          .text-box {
+            padding: 1.875rem 1.25rem;
+
+            .title {
+              //styleName: Mobile:Title2;
+              font-family: Work Sans;
+              font-size: 1.875rem;
+              font-weight: 300;
+              line-height: 2.125rem;
+              letter-spacing: -0.03em;
+              text-align: left;
+
+              margin-bottom: 0.9375rem;
+
+            }
+
+            .sub-title {
+              //styleName: Mobile:Content;
+              font-family: Work Sans;
+              font-size: 1rem;
+              font-weight: 300;
+              line-height: 1.5rem;
+              letter-spacing: -0.03em;
+              text-align: left;
+
+            }
+          }
+
+
+
+        }
+      }
+
+    }
+
+
+  }
+}
